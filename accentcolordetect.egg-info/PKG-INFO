@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: accentcolordetect
+Version: 0.0.1
+Summary: Detect OS accent color from Python
+Home-page: https://github.com/legopitstop/accentcolordetect/
+Author: Legopitstop
+Author-email: officiallegopitstop@gmail.com
+License: MIT
+Keywords: colordetect,tkinter,gui,windows,darwin
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# Accentcolordetect
+
+This package allows you to detect the user's accent color on:
+- macOS (untested)
+- Windows 10+
+
+The main application of this package is to detect the accent color from your GUI Python application and apply the needed adjustments to your interface. Inspired by the [darkdetect](https://pypi.org/project/darkdetect/) package by [Alberto Sottile](https://pypi.org/user/albertosottile/)
+
+## Usage
+```Python
+import accentcolordetect
+
+>>> accentcolordetect.accent()
+((255, 140, 0), '#ff8c00')
+```
+
+## Install
+```
+pip install accentcolordetect
+```
