@@ -1,4 +1,4 @@
-LICENSE.md
+LICENSE
 README.md
 setup.cfg
 setup.py
@@ -9,4 +9,5 @@ accentcolordetect/_windows_detect.py
 accentcolordetect.egg-info/PKG-INFO
 accentcolordetect.egg-info/SOURCES.txt
 accentcolordetect.egg-info/dependency_links.txt
+accentcolordetect.egg-info/not-zip-safe
 accentcolordetect.egg-info/top_level.txt
